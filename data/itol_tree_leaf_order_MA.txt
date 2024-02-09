@@ -1,0 +1,18 @@
+Escherichia coli
+Actinomyces naeslundii
+Actinomyces graevenitzii
+Alloscardovia omnicolens
+Bifidobacterium longum subsp. infantis
+Capnocytophaga ochracea
+Gemella morbillorum
+Gemella haemolysans
+Enterococcus faecalis
+Streptococcus sanguinis
+Streptococcus salivarius
+Streptococcus mitis
+Streptococcus anginosus
+Lactobacillus ruminis
+Lactobacillus reuteri
+Lactobacillus paracasei
+Lactobacillus gasseri
+Lactobacillus fermentum

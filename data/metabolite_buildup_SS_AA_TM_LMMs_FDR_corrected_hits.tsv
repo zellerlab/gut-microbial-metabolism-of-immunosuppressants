@@ -1,0 +1,897 @@
+Strain	index	parent_compound	pval	hit	Oxygen	Type
+Actinomyces naeslundi	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Actinomyces naeslundi	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Actinomyces naeslundi	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Actinomyces naeslundi	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Actinomyces naeslundi	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Actinomyces naeslundi	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Actinomyces naeslundi	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Actinomyces naeslundi	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Actinomyces naeslundi	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Actinomyces naeslundi	M_MMF_9	Mycophenolate Mofetil	0.778489561235864	FALSE	AA	SS
+Actinomyces naeslundi	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Actinomyces naeslundi	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Actinomyces naeslundi	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Actinomyces naeslundi	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Actinomyces naeslundi	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Actinomyces naeslundi	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Akkermansia muciniphila	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Akkermansia muciniphila	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Akkermansia muciniphila	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Akkermansia muciniphila	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Akkermansia muciniphila	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Akkermansia muciniphila	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Akkermansia muciniphila	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Akkermansia muciniphila	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Akkermansia muciniphila	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Akkermansia muciniphila	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Akkermansia muciniphila	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Akkermansia muciniphila	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Akkermansia muciniphila	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Akkermansia muciniphila	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Akkermansia muciniphila	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Akkermansia muciniphila	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Alloscardovia omnicolens	M_BETAMETHASONE_1	Betamethasone	0.9272263421369531	FALSE	AA	SS
+Alloscardovia omnicolens	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Alloscardovia omnicolens	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Alloscardovia omnicolens	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Alloscardovia omnicolens	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Alloscardovia omnicolens	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Alloscardovia omnicolens	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Alloscardovia omnicolens	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Alloscardovia omnicolens	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Alloscardovia omnicolens	M_MMF_9	Mycophenolate Mofetil	0.6168879290245467	FALSE	AA	SS
+Alloscardovia omnicolens	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Alloscardovia omnicolens	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Alloscardovia omnicolens	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Alloscardovia omnicolens	M_RANITIDINE_8	Ranitidine	0.9463597869331638	FALSE	AA	SS
+Alloscardovia omnicolens	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Alloscardovia omnicolens	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Bacteroides caccae	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Bacteroides caccae	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Bacteroides caccae	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Bacteroides caccae	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Bacteroides caccae	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Bacteroides caccae	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Bacteroides caccae	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Bacteroides caccae	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides caccae	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides caccae	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Bacteroides caccae	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Bacteroides caccae	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Bacteroides caccae	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Bacteroides caccae	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Bacteroides caccae	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Bacteroides caccae	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Bacteroides fragilis	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Bacteroides fragilis	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Bacteroides fragilis	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Bacteroides fragilis	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Bacteroides fragilis	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Bacteroides fragilis	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Bacteroides fragilis	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Bacteroides fragilis	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides fragilis	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides fragilis	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Bacteroides fragilis	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Bacteroides fragilis	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Bacteroides fragilis	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Bacteroides fragilis	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Bacteroides fragilis	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Bacteroides fragilis	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Bacteroides ovatus	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Bacteroides ovatus	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Bacteroides ovatus	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Bacteroides ovatus	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Bacteroides ovatus	M_DILTIAZEM_2	Diltiazem	3.967086941655361e-12	TRUE	AA	SS
+Bacteroides ovatus	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Bacteroides ovatus	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Bacteroides ovatus	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides ovatus	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides ovatus	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Bacteroides ovatus	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Bacteroides ovatus	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Bacteroides ovatus	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Bacteroides ovatus	M_RANITIDINE_8	Ranitidine	0.00895476679736563	TRUE	AA	SS
+Bacteroides ovatus	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Bacteroides ovatus	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Bacteroides stercoris	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Bacteroides stercoris	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Bacteroides stercoris	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Bacteroides stercoris	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Bacteroides stercoris	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Bacteroides stercoris	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Bacteroides stercoris	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Bacteroides stercoris	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides stercoris	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides stercoris	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Bacteroides stercoris	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Bacteroides stercoris	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Bacteroides stercoris	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Bacteroides stercoris	M_RANITIDINE_8	Ranitidine	0.26385999129702886	FALSE	AA	SS
+Bacteroides stercoris	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Bacteroides stercoris	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Bacteroides thetaiotaomicron	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Bacteroides thetaiotaomicron	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Bacteroides thetaiotaomicron	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Bacteroides thetaiotaomicron	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Bacteroides thetaiotaomicron	M_DILTIAZEM_2	Diltiazem	4.5828431084697626e-7	TRUE	AA	SS
+Bacteroides thetaiotaomicron	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Bacteroides thetaiotaomicron	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Bacteroides thetaiotaomicron	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides thetaiotaomicron	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides thetaiotaomicron	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Bacteroides thetaiotaomicron	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Bacteroides thetaiotaomicron	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Bacteroides thetaiotaomicron	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Bacteroides thetaiotaomicron	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Bacteroides thetaiotaomicron	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Bacteroides thetaiotaomicron	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Bacteroides uniformis	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Bacteroides uniformis	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Bacteroides uniformis	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Bacteroides uniformis	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Bacteroides uniformis	M_DILTIAZEM_2	Diltiazem	3.597825327394298e-4	TRUE	AA	SS
+Bacteroides uniformis	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Bacteroides uniformis	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Bacteroides uniformis	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides uniformis	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides uniformis	M_MMF_9	Mycophenolate Mofetil	0.0019539346892474226	TRUE	AA	SS
+Bacteroides uniformis	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Bacteroides uniformis	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Bacteroides uniformis	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Bacteroides uniformis	M_RANITIDINE_8	Ranitidine	0.26385999129702886	FALSE	AA	SS
+Bacteroides uniformis	M_SIROLIMUS_1	Sirolimus	0.7907354012096199	FALSE	AA	SS
+Bacteroides uniformis	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Bacteroides vulgatus	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Bacteroides vulgatus	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Bacteroides vulgatus	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Bacteroides vulgatus	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Bacteroides vulgatus	M_DILTIAZEM_2	Diltiazem	0.3377819064623698	FALSE	AA	SS
+Bacteroides vulgatus	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Bacteroides vulgatus	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Bacteroides vulgatus	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides vulgatus	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides vulgatus	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Bacteroides vulgatus	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Bacteroides vulgatus	M_PREDNISONE_1	Prednisone	0.8094944073716693	FALSE	AA	SS
+Bacteroides vulgatus	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Bacteroides vulgatus	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Bacteroides vulgatus	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Bacteroides vulgatus	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Bacteroides xylanisolvens	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Bacteroides xylanisolvens	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Bacteroides xylanisolvens	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Bacteroides xylanisolvens	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Bacteroides xylanisolvens	M_DILTIAZEM_2	Diltiazem	1.1717519189057358e-63	TRUE	AA	SS
+Bacteroides xylanisolvens	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Bacteroides xylanisolvens	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Bacteroides xylanisolvens	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides xylanisolvens	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Bacteroides xylanisolvens	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Bacteroides xylanisolvens	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Bacteroides xylanisolvens	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Bacteroides xylanisolvens	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Bacteroides xylanisolvens	M_RANITIDINE_8	Ranitidine	0.001054252535378562	TRUE	AA	SS
+Bacteroides xylanisolvens	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Bacteroides xylanisolvens	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Bifidobacterium adolescentis	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Bifidobacterium longum	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Bifidobacterium longum	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Bifidobacterium longum	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Bifidobacterium longum	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Bifidobacterium longum	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Bifidobacterium longum	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Bifidobacterium longum	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Bifidobacterium longum	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Bifidobacterium longum	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Bifidobacterium longum	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Bifidobacterium longum	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Bifidobacterium longum	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Bifidobacterium longum	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Bifidobacterium longum	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Bifidobacterium longum	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Bifidobacterium longum	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Blautia hansenii	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Blautia hansenii	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Blautia hansenii	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Blautia hansenii	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Blautia hansenii	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Blautia hansenii	M_EVEROLIMUS_1	Everolimus	4.5828431084697626e-7	TRUE	AA	SS
+Blautia hansenii	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Blautia hansenii	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Blautia hansenii	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Blautia hansenii	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Blautia hansenii	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Blautia hansenii	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Blautia hansenii	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Blautia hansenii	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Blautia hansenii	M_SIROLIMUS_1	Sirolimus	3.60351328414307e-13	TRUE	AA	SS
+Blautia hansenii	M_TACROLIMUS_8	Tacrolimus	5.511235132122521e-14	TRUE	AA	SS
+Capnocytophaga ochracea	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Capnocytophaga ochracea	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Capnocytophaga ochracea	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Capnocytophaga ochracea	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Capnocytophaga ochracea	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Capnocytophaga ochracea	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Capnocytophaga ochracea	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Capnocytophaga ochracea	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Capnocytophaga ochracea	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Capnocytophaga ochracea	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Capnocytophaga ochracea	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Capnocytophaga ochracea	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Capnocytophaga ochracea	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Capnocytophaga ochracea	M_RANITIDINE_8	Ranitidine	0.9606341645550673	FALSE	AA	SS
+Capnocytophaga ochracea	M_SIROLIMUS_1	Sirolimus	0.9272263421369531	FALSE	AA	SS
+Capnocytophaga ochracea	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Clostridium bolteae	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Clostridium bolteae	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Clostridium bolteae	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Clostridium bolteae	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Clostridium bolteae	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Clostridium bolteae	M_EVEROLIMUS_1	Everolimus	5.64875389378196e-6	TRUE	AA	SS
+Clostridium bolteae	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Clostridium bolteae	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Clostridium bolteae	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Clostridium bolteae	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Clostridium bolteae	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Clostridium bolteae	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Clostridium bolteae	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Clostridium bolteae	M_RANITIDINE_8	Ranitidine	0.17513905574357297	FALSE	AA	SS
+Clostridium bolteae	M_SIROLIMUS_1	Sirolimus	2.4266961333285237e-6	TRUE	AA	SS
+Clostridium bolteae	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Clostridium ramosum	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Clostridium ramosum	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Clostridium ramosum	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Clostridium ramosum	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Clostridium ramosum	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Clostridium ramosum	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Clostridium ramosum	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Clostridium ramosum	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Clostridium ramosum	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Clostridium ramosum	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Clostridium ramosum	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Clostridium ramosum	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Clostridium ramosum	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Clostridium ramosum	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Clostridium ramosum	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Clostridium ramosum	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Clostridium scindens	M_BETAMETHASONE_1	Betamethasone	0.005648000822309627	TRUE	AA	SS
+Clostridium scindens	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Clostridium scindens	M_CORTISONE_1	Cortisone	5.716672202118266e-5	TRUE	AA	SS
+Clostridium scindens	M_DEXAMETHASONE_3	Dexamethasone	0.02660132172408571	TRUE	AA	SS
+Clostridium scindens	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Clostridium scindens	M_EVEROLIMUS_1	Everolimus	6.365344460586505e-4	TRUE	AA	SS
+Clostridium scindens	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Clostridium scindens	M_METHYLPREDNISOLONE_1	Methylprednisolone	1.597078284920048e-4	TRUE	AA	SS
+Clostridium scindens	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Clostridium scindens	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Clostridium scindens	M_PREDNISOLONE_4	Prednisolone	0.17740569754782454	FALSE	AA	SS
+Clostridium scindens	M_PREDNISONE_1	Prednisone	0.0018766321868354946	TRUE	AA	SS
+Clostridium scindens	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Clostridium scindens	M_RANITIDINE_8	Ranitidine	0.1775586780123403	FALSE	AA	SS
+Clostridium scindens	M_SIROLIMUS_1	Sirolimus	0.0016003354109299125	TRUE	AA	SS
+Clostridium scindens	M_TACROLIMUS_8	Tacrolimus	0.013048104992791243	TRUE	AA	SS
+Collinsella aerofaciens	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Collinsella aerofaciens	M_BUDESONIDE_1	Budesonid	0.7907354012096199	FALSE	AA	SS
+Collinsella aerofaciens	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Collinsella aerofaciens	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Collinsella aerofaciens	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Collinsella aerofaciens	M_EVEROLIMUS_1	Everolimus	0.008896174724820526	TRUE	AA	SS
+Collinsella aerofaciens	M_HYDROCORTISONE_2	Hydrocortisone	0.7907354012096199	FALSE	AA	SS
+Collinsella aerofaciens	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Collinsella aerofaciens	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Collinsella aerofaciens	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Collinsella aerofaciens	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Collinsella aerofaciens	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Collinsella aerofaciens	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Collinsella aerofaciens	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Collinsella aerofaciens	M_SIROLIMUS_1	Sirolimus	0.009244512563966023	TRUE	AA	SS
+Collinsella aerofaciens	M_TACROLIMUS_8	Tacrolimus	5.79345765266501e-6	TRUE	AA	SS
+Coprococcus comes	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Coprococcus comes	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Coprococcus comes	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Coprococcus comes	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Coprococcus comes	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Coprococcus comes	M_EVEROLIMUS_1	Everolimus	0.09651463570188373	FALSE	AA	SS
+Coprococcus comes	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Coprococcus comes	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Coprococcus comes	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Coprococcus comes	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Coprococcus comes	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Coprococcus comes	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Coprococcus comes	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Coprococcus comes	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Coprococcus comes	M_SIROLIMUS_1	Sirolimus	0.2518505003057087	FALSE	AA	SS
+Coprococcus comes	M_TACROLIMUS_8	Tacrolimus	0.004708683647523433	TRUE	AA	SS
+Dorea formicigenerans	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Dorea formicigenerans	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Dorea formicigenerans	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Dorea formicigenerans	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Dorea formicigenerans	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Dorea formicigenerans	M_EVEROLIMUS_1	Everolimus	1.657979173922072e-5	TRUE	AA	SS
+Dorea formicigenerans	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Dorea formicigenerans	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Dorea formicigenerans	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Dorea formicigenerans	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Dorea formicigenerans	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Dorea formicigenerans	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Dorea formicigenerans	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Dorea formicigenerans	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Dorea formicigenerans	M_SIROLIMUS_1	Sirolimus	4.242728203865885e-6	TRUE	AA	SS
+Dorea formicigenerans	M_TACROLIMUS_8	Tacrolimus	8.881115683811444e-5	TRUE	AA	SS
+Enterococcus faecalis	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Enterococcus faecalis	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Enterococcus faecalis	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Enterococcus faecalis	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Enterococcus faecalis	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Enterococcus faecalis	M_EVEROLIMUS_1	Everolimus	0.003463760412185646	TRUE	AA	SS
+Enterococcus faecalis	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Enterococcus faecalis	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Enterococcus faecalis	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Enterococcus faecalis	M_MMF_9	Mycophenolate Mofetil	0.44144270220933934	FALSE	AA	SS
+Enterococcus faecalis	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Enterococcus faecalis	M_PREDNISONE_1	Prednisone	0.7907354012096199	FALSE	AA	SS
+Enterococcus faecalis	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Enterococcus faecalis	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Enterococcus faecalis	M_SIROLIMUS_1	Sirolimus	0.0013748299934934734	TRUE	AA	SS
+Enterococcus faecalis	M_TACROLIMUS_8	Tacrolimus	7.739613079710612e-4	TRUE	AA	SS
+Escherichia coli	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Escherichia coli	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Escherichia coli	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Escherichia coli	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Escherichia coli	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Escherichia coli	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Escherichia coli	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Escherichia coli	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Escherichia coli	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Escherichia coli	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Escherichia coli	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Escherichia coli	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Escherichia coli	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Escherichia coli	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Escherichia coli	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Escherichia coli	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Eubacterium eligens	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Eubacterium eligens	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Eubacterium eligens	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Eubacterium eligens	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Eubacterium eligens	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Eubacterium eligens	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Eubacterium eligens	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Eubacterium eligens	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Eubacterium eligens	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Eubacterium eligens	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Eubacterium eligens	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Eubacterium eligens	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Eubacterium eligens	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Eubacterium eligens	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Eubacterium eligens	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Eubacterium eligens	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Eubacterium hallii	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Eubacterium hallii	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Eubacterium hallii	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Eubacterium hallii	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Eubacterium hallii	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Eubacterium hallii	M_EVEROLIMUS_1	Everolimus	0.0024569106054308323	TRUE	AA	SS
+Eubacterium hallii	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Eubacterium hallii	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Eubacterium hallii	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Eubacterium hallii	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Eubacterium hallii	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Eubacterium hallii	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Eubacterium hallii	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Eubacterium hallii	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Eubacterium hallii	M_SIROLIMUS_1	Sirolimus	1.5084884723338672e-4	TRUE	AA	SS
+Eubacterium hallii	M_TACROLIMUS_8	Tacrolimus	1.597078284920048e-4	TRUE	AA	SS
+Eubacterium rectale	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Eubacterium rectale	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Eubacterium rectale	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Eubacterium rectale	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Eubacterium rectale	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Eubacterium rectale	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Eubacterium rectale	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Eubacterium rectale	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Eubacterium rectale	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Eubacterium rectale	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Eubacterium rectale	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Eubacterium rectale	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Eubacterium rectale	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Eubacterium rectale	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Eubacterium rectale	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Eubacterium rectale	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Faecalibacterium prausnitzii	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Faecalibacterium prausnitzii	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Faecalibacterium prausnitzii	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Faecalibacterium prausnitzii	M_DEXAMETHASONE_3	Dexamethasone	0.14785289181586733	FALSE	AA	SS
+Faecalibacterium prausnitzii	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Faecalibacterium prausnitzii	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Faecalibacterium prausnitzii	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Faecalibacterium prausnitzii	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Faecalibacterium prausnitzii	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Faecalibacterium prausnitzii	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Faecalibacterium prausnitzii	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Faecalibacterium prausnitzii	M_PREDNISONE_1	Prednisone	7.235279805497998e-4	TRUE	AA	SS
+Faecalibacterium prausnitzii	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Faecalibacterium prausnitzii	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Faecalibacterium prausnitzii	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Faecalibacterium prausnitzii	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Gemella haemolysans	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Gemella haemolysans	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Gemella haemolysans	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Gemella haemolysans	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Gemella haemolysans	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Gemella haemolysans	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Gemella haemolysans	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Gemella haemolysans	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Gemella haemolysans	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Gemella haemolysans	M_MMF_9	Mycophenolate Mofetil	0.7907354012096199	FALSE	AA	SS
+Gemella haemolysans	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Gemella haemolysans	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Gemella haemolysans	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Gemella haemolysans	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Gemella haemolysans	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Gemella haemolysans	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Gemella morbillorum	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Gemella morbillorum	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Gemella morbillorum	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Gemella morbillorum	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Gemella morbillorum	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Gemella morbillorum	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Gemella morbillorum	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Gemella morbillorum	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Gemella morbillorum	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Gemella morbillorum	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Gemella morbillorum	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Gemella morbillorum	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Gemella morbillorum	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Gemella morbillorum	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Gemella morbillorum	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Gemella morbillorum	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Lactobacillus fermentum	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Lactobacillus fermentum	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Lactobacillus fermentum	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Lactobacillus fermentum	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Lactobacillus fermentum	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Lactobacillus fermentum	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Lactobacillus fermentum	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Lactobacillus fermentum	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Lactobacillus fermentum	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Lactobacillus fermentum	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Lactobacillus fermentum	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Lactobacillus fermentum	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Lactobacillus fermentum	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Lactobacillus fermentum	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Lactobacillus fermentum	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Lactobacillus fermentum	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Lactobacillus gasseri	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Lactobacillus gasseri	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Lactobacillus gasseri	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Lactobacillus gasseri	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Lactobacillus gasseri	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Lactobacillus gasseri	M_EVEROLIMUS_1	Everolimus	0.31757496511719235	FALSE	AA	SS
+Lactobacillus gasseri	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Lactobacillus gasseri	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Lactobacillus gasseri	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Lactobacillus gasseri	M_MMF_9	Mycophenolate Mofetil	0.029361471798618997	TRUE	AA	SS
+Lactobacillus gasseri	M_PREDNISOLONE_4	Prednisolone	0.7907354012096199	FALSE	AA	SS
+Lactobacillus gasseri	M_PREDNISONE_1	Prednisone	0.6362218838688132	FALSE	AA	SS
+Lactobacillus gasseri	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Lactobacillus gasseri	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Lactobacillus gasseri	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Lactobacillus gasseri	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Lactobacillus paracasei	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Lactobacillus paracasei	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Lactobacillus paracasei	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Lactobacillus paracasei	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Lactobacillus paracasei	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Lactobacillus paracasei	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Lactobacillus paracasei	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Lactobacillus paracasei	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Lactobacillus paracasei	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Lactobacillus paracasei	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Lactobacillus paracasei	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Lactobacillus paracasei	M_PREDNISONE_1	Prednisone	0.37455068743597	FALSE	AA	SS
+Lactobacillus paracasei	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Lactobacillus paracasei	M_RANITIDINE_8	Ranitidine	0.9272263421369531	FALSE	AA	SS
+Lactobacillus paracasei	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Lactobacillus paracasei	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Lactobacillus reuteri	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Lactobacillus reuteri	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Lactobacillus reuteri	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Lactobacillus reuteri	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Lactobacillus reuteri	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Lactobacillus reuteri	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Lactobacillus reuteri	M_HYDROCORTISONE_2	Hydrocortisone	0.7907354012096199	FALSE	AA	SS
+Lactobacillus reuteri	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Lactobacillus reuteri	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Lactobacillus reuteri	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Lactobacillus reuteri	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Lactobacillus reuteri	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Lactobacillus reuteri	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Lactobacillus reuteri	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Lactobacillus reuteri	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Lactobacillus reuteri	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Lactobacillus ruminis	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Lactobacillus ruminis	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Lactobacillus ruminis	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Lactobacillus ruminis	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Lactobacillus ruminis	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Lactobacillus ruminis	M_EVEROLIMUS_1	Everolimus	0.26385999129702886	FALSE	AA	SS
+Lactobacillus ruminis	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Lactobacillus ruminis	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Lactobacillus ruminis	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Lactobacillus ruminis	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Lactobacillus ruminis	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Lactobacillus ruminis	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Lactobacillus ruminis	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Lactobacillus ruminis	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Lactobacillus ruminis	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Lactobacillus ruminis	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Odoribacter splanchnicus	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Parabacteroides distasonis	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Parabacteroides distasonis	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Parabacteroides distasonis	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Parabacteroides distasonis	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Parabacteroides distasonis	M_DILTIAZEM_2	Diltiazem	1.597078284920048e-4	TRUE	AA	SS
+Parabacteroides distasonis	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Parabacteroides distasonis	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Parabacteroides distasonis	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Parabacteroides distasonis	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Parabacteroides distasonis	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Parabacteroides distasonis	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Parabacteroides distasonis	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Parabacteroides distasonis	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Parabacteroides distasonis	M_RANITIDINE_8	Ranitidine	0.9463597869331638	FALSE	AA	SS
+Parabacteroides distasonis	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Parabacteroides distasonis	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Parabacteroides merdae	M_BETAMETHASONE_1	Betamethasone	0.9809888403327928	FALSE	AA	SS
+Parabacteroides merdae	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Parabacteroides merdae	M_CORTISONE_1	Cortisone	0.1685766641499529	FALSE	AA	SS
+Parabacteroides merdae	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Parabacteroides merdae	M_DILTIAZEM_2	Diltiazem	4.788110255077573e-40	TRUE	AA	SS
+Parabacteroides merdae	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Parabacteroides merdae	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Parabacteroides merdae	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Parabacteroides merdae	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Parabacteroides merdae	M_MMF_9	Mycophenolate Mofetil	0.008378889270764779	TRUE	AA	SS
+Parabacteroides merdae	M_PREDNISOLONE_4	Prednisolone	0.5863901444599892	FALSE	AA	SS
+Parabacteroides merdae	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Parabacteroides merdae	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Parabacteroides merdae	M_RANITIDINE_8	Ranitidine	0.5763563642075101	FALSE	AA	SS
+Parabacteroides merdae	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Parabacteroides merdae	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Prevotella copri	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Prevotella copri	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Prevotella copri	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Prevotella copri	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Prevotella copri	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Prevotella copri	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Prevotella copri	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Prevotella copri	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Prevotella copri	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Prevotella copri	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Prevotella copri	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Prevotella copri	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Prevotella copri	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Prevotella copri	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Prevotella copri	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Prevotella copri	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Roseburia intestinalis	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Roseburia intestinalis	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Roseburia intestinalis	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Roseburia intestinalis	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Roseburia intestinalis	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Roseburia intestinalis	M_EVEROLIMUS_1	Everolimus	5.956569708468767e-7	TRUE	AA	SS
+Roseburia intestinalis	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Roseburia intestinalis	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Roseburia intestinalis	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Roseburia intestinalis	M_MMF_9	Mycophenolate Mofetil	0.8678799670089233	FALSE	AA	SS
+Roseburia intestinalis	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Roseburia intestinalis	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Roseburia intestinalis	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Roseburia intestinalis	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Roseburia intestinalis	M_SIROLIMUS_1	Sirolimus	6.07574208348439e-7	TRUE	AA	SS
+Roseburia intestinalis	M_TACROLIMUS_8	Tacrolimus	1.657979173922072e-5	TRUE	AA	SS
+Ruminococcus gnavus	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Ruminococcus gnavus	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Ruminococcus gnavus	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Ruminococcus gnavus	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Ruminococcus gnavus	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Ruminococcus gnavus	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Ruminococcus gnavus	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Ruminococcus gnavus	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Ruminococcus gnavus	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Ruminococcus gnavus	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Ruminococcus gnavus	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Ruminococcus gnavus	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Ruminococcus gnavus	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Ruminococcus gnavus	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Ruminococcus gnavus	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Ruminococcus gnavus	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Streptococcus anginosus	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Streptococcus anginosus	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Streptococcus anginosus	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Streptococcus anginosus	M_DEXAMETHASONE_3	Dexamethasone	0.7907354012096199	FALSE	AA	SS
+Streptococcus anginosus	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Streptococcus anginosus	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Streptococcus anginosus	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Streptococcus anginosus	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Streptococcus anginosus	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Streptococcus anginosus	M_MMF_9	Mycophenolate Mofetil	0.3695509905990654	FALSE	AA	SS
+Streptococcus anginosus	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Streptococcus anginosus	M_PREDNISONE_1	Prednisone	0.6362218838688132	FALSE	AA	SS
+Streptococcus anginosus	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Streptococcus anginosus	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Streptococcus anginosus	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Streptococcus anginosus	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Streptococcus mitis	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Streptococcus mitis	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Streptococcus mitis	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Streptococcus mitis	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Streptococcus mitis	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Streptococcus mitis	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Streptococcus mitis	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Streptococcus mitis	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Streptococcus mitis	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Streptococcus mitis	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Streptococcus mitis	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Streptococcus mitis	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Streptococcus mitis	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Streptococcus mitis	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Streptococcus mitis	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Streptococcus mitis	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Streptococcus salivarius	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Streptococcus salivarius	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Streptococcus salivarius	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Streptococcus salivarius	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Streptococcus salivarius	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Streptococcus salivarius	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Streptococcus salivarius	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Streptococcus salivarius	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Streptococcus salivarius	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Streptococcus salivarius	M_MMF_9	Mycophenolate Mofetil	0.02660132172408571	TRUE	AA	SS
+Streptococcus salivarius	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Streptococcus salivarius	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Streptococcus salivarius	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Streptococcus salivarius	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Streptococcus salivarius	M_SIROLIMUS_1	Sirolimus	0.04468443632272483	TRUE	AA	SS
+Streptococcus salivarius	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Streptococcus sanguinis	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Streptococcus sanguinis	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Streptococcus sanguinis	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Streptococcus sanguinis	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Streptococcus sanguinis	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Streptococcus sanguinis	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Streptococcus sanguinis	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Streptococcus sanguinis	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Streptococcus sanguinis	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Streptococcus sanguinis	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Streptococcus sanguinis	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Streptococcus sanguinis	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Streptococcus sanguinis	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Streptococcus sanguinis	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Streptococcus sanguinis	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Streptococcus sanguinis	M_TACROLIMUS_8	Tacrolimus	0.9809888403327928	FALSE	AA	SS
+Control_4	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Control_8	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Control_10	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Control_11	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Control_12	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Control_9	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Control_2	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Control_3	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Control_5	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Control_14	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Control_15	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Control_16	M_BUDESONIDE_1	Budesonid	1	FALSE	AA	SS
+Control_4	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Control_8	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Control_10	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Control_11	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Control_12	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Control_9	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Control_2	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Control_3	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Control_5	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Control_14	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Control_15	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Control_16	M_PREDNISONE_1	Prednisone	1	FALSE	AA	SS
+Control_4	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Control_8	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Control_11	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Control_12	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Control_9	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Control_2	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Control_3	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Control_5	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Control_10	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Control_14	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Control_15	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Control_16	M_CORTISONE_1	Cortisone	1	FALSE	AA	SS
+Control_4	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Control_8	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Control_10	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Control_12	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Control_9	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Control_11	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Control_5	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Control_2	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Control_3	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Control_14	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Control_15	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Control_16	M_PREDNISOLONE_4	Prednisolone	1	FALSE	AA	SS
+Control_4	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Control_8	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Control_10	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Control_11	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Control_12	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Control_9	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Control_2	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Control_3	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Control_5	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Control_14	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Control_15	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Control_16	M_HYDROCORTISONE_2	Hydrocortisone	1	FALSE	AA	SS
+Control_4	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Control_8	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Control_10	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Control_12	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Control_9	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Control_11	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Control_5	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Control_2	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Control_3	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Control_14	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Control_15	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Control_16	M_BETAMETHASONE_1	Betamethasone	1	FALSE	AA	SS
+Control_4	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Control_8	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Control_10	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Control_11	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Control_12	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Control_9	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Control_2	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Control_3	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Control_5	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Control_14	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Control_15	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Control_16	M_DEXAMETHASONE_3	Dexamethasone	1	FALSE	AA	SS
+Control_4	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Control_8	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Control_10	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Control_11	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Control_12	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Control_9	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Control_2	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Control_3	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Control_5	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Control_14	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Control_15	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Control_16	M_PREDNISONE_2	Prednisone	1	FALSE	AA	SS
+Control_4	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Control_8	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Control_10	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Control_11	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Control_12	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Control_9	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Control_2	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Control_3	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Control_5	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Control_14	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Control_15	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Control_16	M_METHYLPREDNISOLONE_1	Methylprednisolone	1	FALSE	AA	SS
+Control_4	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Control_8	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Control_10	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Control_11	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Control_12	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Control_9	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Control_2	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Control_3	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Control_5	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Control_14	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Control_15	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Control_16	M_METHYLPREDNISOLONE_2	Methylprednisolone	1	FALSE	AA	SS
+Control_4	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Control_8	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Control_10	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Control_11	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Control_12	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Control_9	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Control_2	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Control_3	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Control_5	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Control_14	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Control_15	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Control_16	M_TACROLIMUS_8	Tacrolimus	1	FALSE	AA	SS
+Control_4	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Control_8	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Control_10	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Control_11	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Control_12	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Control_9	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Control_2	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Control_3	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Control_5	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Control_14	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Control_15	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Control_16	M_SIROLIMUS_1	Sirolimus	1	FALSE	AA	SS
+Control_10	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Control_4	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Control_8	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Control_9	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Control_11	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Control_12	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Control_2	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Control_3	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Control_5	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Control_14	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Control_15	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Control_16	M_MMF_9	Mycophenolate Mofetil	1	FALSE	AA	SS
+Control_4	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Control_8	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Control_9	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Control_11	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Control_12	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Control_2	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Control_3	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Control_5	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Control_10	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Control_14	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Control_15	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Control_16	M_RANITIDINE_8	Ranitidine	1	FALSE	AA	SS
+Control_4	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Control_8	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Control_9	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Control_11	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Control_12	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Control_2	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Control_3	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Control_5	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Control_10	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Control_14	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Control_15	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Control_16	M_DILTIAZEM_2	Diltiazem	1	FALSE	AA	SS
+Control_4	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Control_8	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Control_9	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Control_11	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Control_12	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Control_2	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Control_3	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Control_5	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Control_10	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Control_14	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Control_15	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS
+Control_16	M_EVEROLIMUS_1	Everolimus	1	FALSE	AA	SS

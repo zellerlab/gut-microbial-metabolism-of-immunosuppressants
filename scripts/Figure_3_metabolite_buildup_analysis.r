@@ -14,6 +14,8 @@ combs <- c("_C_AA_TM",
     "_SS_AA_TM",
     "_SS_MA_TM")
 
+allR <- list()
+
 # for (cc in names(allR)) {
 for (cc in combs) {
 
@@ -21,7 +23,7 @@ for (cc in combs) {
     typeE <- str_split_fixed(cc, "_", n = 3)[, 2]
     oxygen <- str_split_fixed(cc, "_", n = 4)[, 3]
 
-    tested_strains <- read_xlsx('/g/scb/zeller/karcher/PRISMA/data/WGS_metadata/Tables_STM.xlsx', sheet = 4, skip = 2) %>%
+    tested_strains <- read_xlsx(here('data/Supp_Tables_STM_240216.xlsx'), sheet = 5, skip = 2) %>%
         filter(!is.na(`NCBI tax ID`))
 
     if (oxygen == "MA") {
@@ -37,31 +39,82 @@ for (cc in combs) {
         # filter(Name != "Actinomyces graevenitzii") %>%
         mutate(Name = ifelse(Name == "Bifidobacterium longum subsp. Infantis", "Bifidobacterium longum", Name)) %>%
         mutate(Name = ifelse(Name == "Escherichia coli BW25113", "Escherichia coli", Name)) %>%
-        left_join(read_tsv('/g/scb/zeller/karcher/maral_find_metabolite_buildup/results/drug_degradation_potential_SS_ordered_strains.tsv', col_names = F) %>%
+        left_join(read_tsv(here('data/drug_degradation_potential_SS_ordered_strains.tsv'), col_names = F) %>%
             rename(Name = X1)) %>%
         pull(Name)
 
 
     m <- read_tsv(here('data', str_c("metabolite_buildup", cc, "_LMMs_FDR_corrected_hits.tsv"))) %>%
         rename(ParentCompound = parent_compound)
+    if (cc == "_C_AA_TM") {
+        sheetNumber <- 11
+        m <- read_xlsx(here('data/Supp_Tables_STM_240216.xlsx'), sheet = sheetNumber, skip = 2) %>%
+            rename(Strain = Stool_donor,
+                ParentCompound = ParentDrug,
+                pval = `p-value`, hit = Detected) %>%
+            mutate(Oxygen = "AA", Type = "C") %>%
+            select(Strain, ParentCompound, pval, hit, Oxygen, Type, Time, clean_median_intensity, Index)
+        # distinct()
+    } else if (cc == "_C_MA_TM") {
+        sheetNumber <- 12
+        m <- read_xlsx(here('data/Supp_Tables_STM_240216.xlsx'), sheet = sheetNumber, skip = 2) %>%
+            rename(Strain = Stool_donor,
+                ParentCompound = ParentDrug,
+                pval = `p-value`, hit = Detected) %>%
+            mutate(Oxygen = "MA", Type = "C") %>%
+            select(Strain, ParentCompound, pval, hit, Oxygen, Type, Time, clean_median_intensity, Index)
+        # distinct()
+    } else if (cc == "_SS_AA_TM") {
+        sheetNumber <- 15
+        m <- read_xlsx(here('data/Supp_Tables_STM_240216.xlsx'), sheet = sheetNumber, skip = 2) %>%
+            rename(ParentCompound = ParentDrug,
+                Strain = Strain,
+                pval = `p-value`,
+                hit = Detected) %>%
+            mutate(Oxygen = "AA", Type = "C") %>%
+            select(Strain, ParentCompound, pval, hit, Oxygen, Type, Time, clean_median_intensity, Index)
+        # distinct()
+    } else if (cc == "_SS_MA_TM") {
+        sheetNumber <- 16
+        m <- read_xlsx(here('data/Supp_Tables_STM_240216.xlsx'), sheet = sheetNumber, skip = 2) %>%
+            rename(ParentCompound = ParentDrug,
+                Strain = Strain,
+                pval = `p-value`,
+                hit = Detected) %>%
+            mutate(Oxygen = "MA", Type = "C") %>%
+            select(Strain, ParentCompound, pval, hit, Oxygen, Type, Time, clean_median_intensity, Index)
+        # distinct()
+    }
 
-    # drugs_order <- read_tsv(str_c("/g/scb/zeller/karcher/maral_find_metabolite_buildup/results/", "drug_buildup", "_C_AA_TM", "_LMMs_FDR_corrected..hits", sep = "", collapse = "")) %>%
-    drugs_order <- read_tsv(here("data", str_c("metabolite_buildup_C_AA_TM_LMMs_FDR_corrected_hits.tsv", sep = "", collapse = ""))) %>%
+    allR[[length(allR) + 1]] <- m
+    names(allR)[length(allR)] <- cc
+
+    m <- m %>% select(-Time, clean_median_intensity, Index) %>% distinct()
+
+    drugs_order <- read_xlsx(here('data/Supp_Tables_STM_240216.xlsx'), sheet = 11, skip = 2) %>%
+        rename(Strain = Stool_donor,
+            ParentCompound = ParentDrug,
+            pval = `p-value`, hit = Detected) %>%
+        mutate(Oxygen = "AA", Type = "C") %>%
+        select(Strain, ParentCompound, pval, hit, Oxygen, Type) %>%
+        distinct() %>%
         filter(hit) %>%
-        group_by(parent_compound, Strain) %>%
+        group_by(ParentCompound, Strain) %>%
         summarize(hit = any(hit)) %>%
-        group_by(parent_compound) %>%
+        group_by(ParentCompound) %>%
         tally() %>%
         arrange(desc(n)) %>%
-        pull(parent_compound)
-    strains_order <- read_tsv(str_c("/g/scb/zeller/karcher/maral_find_metabolite_buildup/results/drug_degradation_potential_", typeE, "_ordered_strains.tsv"), col_names = F)$X1
+        pull(ParentCompound)
+    strains_order <- read_tsv(str_c(here("data", str_c("drug_degradation_potential_", typeE, "_ordered_strains.tsv"))), col_names = F)$X1
     strains_order <- c(strains_order, "Control")
     hm <- m %>%
+        mutate(Strain = ifelse(Strain == "Bifidobacterium longum subsp. infantis", "Bifidobacterium longum", Strain)) %>%
         ungroup() %>%
         group_by(Strain, ParentCompound) %>%
         summarize(hit = any(hit)) %>%
         select(Strain, ParentCompound, hit) %>%
         mutate(isControl = str_detect(Strain, "Control") | str_detect(Strain, "^C[0-9]{3}")) %>%
+        filter(ParentCompound %in% drugs_order) %>%
         mutate(ParentCompound = factor(ParentCompound, levels = drugs_order)) %>%
         group_by(isControl) %>%
         nest() %>%
@@ -78,14 +131,6 @@ for (cc in combs) {
         })) %>%
         select(-isControl) %>%
         unnest() %>%
-        # filter(Strain != "Actinomyces graevenitzii") %>%
-        # mutate(Strain = ifelse(Strain == "Actinomyces naeslundii", "Actinomyces naeslundi", Strain)) %>%
-        # mutate(Strain = ifelse(Strain == "Alloscardovia omnicolens", "Actinomyces omnicolens", Strain)) %>%
-        # mutate(Strain = ifelse(Strain == "Capnocytophaga ochracea", "Corynebacterium ochracea", Strain)) %>%
-        # mutate(Strain = ifelse(Strain == "Blautia hansenii", "Bifidobacterium hansenii", Strain)) %>%
-        # mutate(Strain = ifelse(Strain == "Dorea formicigenerans", "Dialister formicigenerans", Strain)) %>%
-        # mutate(Strain = ifelse(Strain == "Odoribacter splanchnicus", "Oscillibacter splanchnicus", Strain)) %>%
-        # mutate(Strain = ifelse(Strain == "Parabacteroides merdae", "Peptoniphilus merdae", Strain)) %>%
         mutate(hit = ifelse(hit, 1, 0)) %>%
         ungroup()
 
@@ -117,13 +162,17 @@ for (cc in combs) {
     dev.off()
 }
 
-allR <- map(combs, \(x) {
-    read_tsv(here('data', str_c("metabolite_buildup", x, "_data_parsed.tsv")))
-})
-names(allR) <- combs
+# allR <- map(combs, \(x) {
+#     read_tsv(here('data', str_c("metabolite_buildup", x, "_data_parsed.tsv")))
+# })
+# names(allR) <- combs
 
-allRLong <- do.call('rbind', map2(allR, names(allR), function(x, y) x %>% mutate(tmp = y) %>% select(
-    Drug, Strain, Time, Pool, AreaControlsubtracted, tmp)
+allRLong <- do.call('rbind', map2(allR, names(allR), function(x, y) x %>% mutate(tmp = y) %>%
+    rename(
+        AreaControlsubtracted = clean_median_intensity,
+        Drug = Index) %>%
+    select(
+        Drug, Strain, Time, AreaControlsubtracted, tmp)
 )) %>%
     mutate(Oxygen = str_split_fixed(tmp, "_", n = 4)[, 3]) %>%
     mutate(Type = str_split_fixed(tmp, "_", n = 5)[, 2]) %>%

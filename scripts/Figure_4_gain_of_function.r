@@ -4,8 +4,10 @@ library(patchwork)
 library(ggrepel)
 library(ggplot2)
 library(gggenes)
+library(here)
 
-source('../data/utils.r')
+# source('../data/utils.r')
+source(here("data", 'utils.r'))
 
 if (rstudioapi::isAvailable()) {
     print("We are within Rstudio, so mounted.")

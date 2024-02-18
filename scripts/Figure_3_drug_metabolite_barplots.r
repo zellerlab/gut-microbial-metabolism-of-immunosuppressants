@@ -109,6 +109,12 @@ degrade %>%
     group_by(Oxygen, Type, Drug) %>%
     nest()
 
+# Write binary heatmap ordered by mean BUILDUP potential of C, AA
+drugs_order <- read_tsv('/g/scb/zeller/karcher/maral_find_metabolite_buildup/results/drug_buildup_C_AA_TM_LMMs_FDR_corrected..hits') %>%
+    group_by(ParentCompound) %>%
+    summarize(hit = sum(hit)) %>%
+    arrange(desc(hit)) %>%
+    pull(ParentCompound)
 
 for (type in c("C", "SS")) {
     plotObject <- allData %>%

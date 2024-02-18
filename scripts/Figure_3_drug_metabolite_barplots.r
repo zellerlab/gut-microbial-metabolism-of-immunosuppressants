@@ -20,23 +20,34 @@ jaccard <- function(a, b) {
     return(intersection / union)
 }
 
-buildup <- map(list.files(here('data'), full.names = TRUE)[str_detect(list.files(here('data'), full.names = TRUE), 'corrected_hits.tsv')], \(p) {
-    pp <- str_split(p, "/")[[1]][length(str_split(p, "/")[[1]])]
-    oxygen <- str_split_fixed(pp, "_", n = 20)[, 4]
-    type <- str_split_fixed(pp, "_", n = 20)[, 3]
-    return(read_tsv(p) %>%
-        mutate(Oxygen = oxygen, Type = type) %>%
-        mutate(DataType = 'buildup'))
-})
-buildup <- do.call('rbind', buildup) %>%
-    rename(Drug = index, ParentCompound = parent_compound) %>%
-    select(-Drug) %>%
-    rename(
-        # StrainCommunity = Strain,
-        Drug = ParentCompound,
-        metabolized = hit) %>%
+buildup <- map2(c(
+    11,
+    12,
+    15,
+    16),
+c(
+    "C_AA",
+    "C_MA",
+    "SS_AA",
+    "SS_MA"
+), function(sheetnumber, tmp) {
+    tt <- read_xlsx(here('data', "Supp_Tables_STM_240216.xlsx"), sheet = sheetnumber, skip = 1) %>%
+        mutate(tmp = tmp) %>%
+        rename(Drug = ParentDrug, metabolized = Detected) %>%
+        mutate(DataType = "buildup") %>%
+        mutate(Oxygen = str_split_fixed(tmp, "_", n = 2)[, 2]) %>%
+        mutate(Type = str_split_fixed(tmp, "_", n = 2)[, 1])
+    if ("Stool_donor" %in% colnames(tt)) {
+        tt <- tt %>%
+            rename(Strain = Stool_donor)
+    }
+    return(tt)
+}) %>%
+    do.call('rbind', .) %>%
     group_by(Drug, Strain, Oxygen, Type, DataType) %>%
     summarize(metabolized = any(metabolized))
+
+
 degrade <- map2(c(
     7,
     8,
@@ -49,7 +60,7 @@ c(
     "SS_MA"
 ), function(sheetnumber, tmp) {
     # tt <- read_xlsx('/g/scb/zeller/karcher/PRISMA/data/WGS_metadata/Tables_STM.xlsx', sheet = sheetnumber, skip = 1) %>% mutate(tmp = tmp)
-    tt <- read_xlsx(here('data', "Supp_Tables_STM_240209.xlsx"), sheet = sheetnumber + 2, skip = 1) %>% mutate(tmp = tmp)
+    tt <- read_xlsx(here('data', "Supp_Tables_STM_240216.xlsx"), sheet = sheetnumber + 2, skip = 1) %>% mutate(tmp = tmp)
     if (any(colnames(tt) == "NCBI tax ID")) {
         tt <- tt %>%
             select(-`NCBI tax ID`)
@@ -64,7 +75,9 @@ c(
 degrade <- do.call('rbind', degrade) %>%
     mutate(Oxygen = str_split_fixed(tmp, "_", n = 2)[, 2]) %>%
     mutate(Type = str_split_fixed(tmp, "_", n = 2)[, 1]) %>%
-    mutate(DataType = 'degradation')
+    mutate(DataType = 'degradation') %>%
+    select(Strain, Drug, Oxygen, Type, DataType, Metabolized, Percentage_of_degraded_drug) %>%
+    distinct()
 
 
 allData <- rbind(buildup %>%
@@ -109,11 +122,19 @@ degrade %>%
     group_by(Oxygen, Type, Drug) %>%
     nest()
 
-# Write binary heatmap ordered by mean BUILDUP potential of C, AA
-drugs_order <- read_tsv('/g/scb/zeller/karcher/maral_find_metabolite_buildup/results/drug_buildup_C_AA_TM_LMMs_FDR_corrected..hits') %>%
+drugs_order <- read_xlsx(here('data/Supp_Tables_STM_240216.xlsx'), sheet = 11, skip = 2) %>%
+    rename(Strain = Stool_donor,
+        ParentCompound = ParentDrug,
+        pval = `p-value`, hit = Detected) %>%
+    mutate(Oxygen = "AA", Type = "C") %>%
+    select(Strain, ParentCompound, pval, hit, Oxygen, Type) %>%
+    distinct() %>%
+    filter(hit) %>%
+    group_by(ParentCompound, Strain) %>%
+    summarize(hit = any(hit)) %>%
     group_by(ParentCompound) %>%
-    summarize(hit = sum(hit)) %>%
-    arrange(desc(hit)) %>%
+    tally() %>%
+    arrange(desc(n)) %>%
     pull(ParentCompound)
 
 for (type in c("C", "SS")) {
@@ -124,7 +145,8 @@ for (type in c("C", "SS")) {
         rename(hit = metabolized) %>%
         pivot_wider(id_cols = c(Drug, Oxygen, Type, StrainCommunity), names_from = DataType, values_from = hit, values_fill = FALSE) %>%
         filter(!str_detect(Drug, "IS_")) %>%
-        mutate(Drug = as.factor(Drug)) %>%
+        mutate(buildup = ifelse(is.na(buildup), FALSE, buildup)) %>%
+    mutate(Drug = as.factor(Drug)) %>%
         # bar height should be equivalent to degradation
         filter(degradation) %>%
         filter(Drug %in% drugs_order) %>%

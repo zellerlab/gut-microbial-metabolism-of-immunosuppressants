@@ -6,9 +6,13 @@ library(here)
 
 for (id in c("SS_AA", "SS_MA")) {
     if (id == "SS_MA") {
-        uniq_min_df_to_plot <- read_xlsx(here('data/Supp_Tables_STM_240209.xlsx'), sheet = 14, skip = 2)
+        uniq_min_df_to_plot <- read_xlsx(here('data/Supp_Tables_STM_240216.xlsx'), sheet = 14, skip = 2) %>%
+            select(-any_of(c("Time", "Pool", "clean_median_intensity"))) %>%
+            distinct()
     } else {
-        uniq_min_df_to_plot <- read_xlsx(here('data/Supp_Tables_STM_240209.xlsx'), sheet = 13, skip = 2)
+        uniq_min_df_to_plot <- read_xlsx(here('data/Supp_Tables_STM_240216.xlsx'), sheet = 13, skip = 2) %>%
+            select(-any_of(c("Time", "Pool", "clean_median_intensity"))) %>%
+            distinct()
     }
 
     uniq_min_df_to_plot <- uniq_min_df_to_plot %>%

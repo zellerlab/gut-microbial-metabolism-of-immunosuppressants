@@ -5,11 +5,39 @@ library(ggsignif)
 library(lmerTest)
 library(lme4)
 library(RColorBrewer)
+library(readxl)
 
 source(here('data/utils.r'))
 
 ref_profiles_wide <- read_tsv(here('data/profiles/reference_profiles_WGS_wide.tsv'))
-overnight_culture_profiles_long <- read_tsv(here('data/profiles/overnight_cultures_WGS_profiles_long.tsv'))
+# overnight_culture_profiles_long <- read_tsv(here('data/profiles/overnight_cultures_WGS_profiles_long.tsv'))
+overnight_culture_profiles_long <- rbind(
+    # read_tsv(here('data/profiles/overnight_cultures_WGS_profiles_wide_MA.tsv')) %>%
+    read_xlsx(here('data/Supp_Tables_STM_240216.xlsx'), sheet = 21, skip = 2) %>%
+        pivot_longer(-c(phylum, class, order, family, genus, species, mOTUs_ID)) %>%
+        rename(stoolDonor = name, relAb = value) %>%
+        mutate(oxygen = "MA"),
+    # read_tsv(here('data/profiles/overnight_cultures_WGS_profiles_wide_AA.tsv')) %>%
+    read_xlsx(here('data/Supp_Tables_STM_240216.xlsx'), sheet = 20, skip = 2) %>%
+        pivot_longer(-c(phylum, class, order, family, genus, species, mOTUs_ID)) %>%
+        rename(stoolDonor = name, relAb = value) %>%
+        mutate(oxygen = "AA")
+)
+
+# DELETE ME
+# read_tsv(here('data/profiles/overnight_cultures_WGS_profiles_long.tsv')) %>%
+#     filter(oxygen == "AA") %>%
+#     arrange(stoolDonor) %>%
+#     pivot_wider(id_cols = c(phylum, class, order, family, genus, species, mOTUs_ID), names_from = stoolDonor, values_from = relAb) %>%
+#     write_tsv(here('data/profiles/overnight_cultures_WGS_profiles_wide_AA.tsv'))
+
+# read_tsv(here('data/profiles/overnight_cultures_WGS_profiles_long.tsv')) %>%
+#     filter(oxygen == "MA") %>%
+#     arrange(stoolDonor) %>%
+#     pivot_wider(id_cols = c(phylum, class, order, family, genus, species, mOTUs_ID), names_from = stoolDonor, values_from = relAb) %>%
+#     write_tsv(here('data/profiles/overnight_cultures_WGS_profiles_wide_MA.tsv'))
+
+
 
 profilesTogetherLong <- rbind(
     ref_profiles_wide %>%

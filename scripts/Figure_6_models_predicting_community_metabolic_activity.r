@@ -214,7 +214,7 @@ for (iteration in 1:100) {
     all_predictions_and_models_strains_active_random[[length(all_predictions_and_models_strains_active_random) + 1]] <- predictions_and_models_strains_active_random[[2]]
 }
 # For reloading later, if necessary, save here
-# save(all_predictions_and_models_strains_active_random, file = "/g/scb/zeller/karcher/maral_dig_into_metabolizing_enzymes/data_tmp/all_predictions_and_models_strains_active_random.rdata")
+# save(all_predictions_and_models_strains_active_random, file = "/g/scb/zeller/karcher/gut-microbial-metabolism-of-critical-dose-immunosuppressants/tmp/all_predictions_and_models_strains_active_random.rdata")
 all_predictions_and_models_motus_all_random <- list()
 set.seed(1)
 for (iteration in 1:100) {
@@ -242,7 +242,7 @@ for (iteration in 1:100) {
     all_predictions_and_models_motus_all_random[[length(all_predictions_and_models_motus_all_random) + 1]] <- predictions_and_models_motus_all_random[[2]]
 }
 # For reloading later, if necessary, save here
-# save(all_predictions_and_models_motus_all_random, file = "/g/scb/zeller/karcher/maral_dig_into_metabolizing_enzymes/data_tmp/all_predictions_and_models_motus_all_random.rdata")
+# save(all_predictions_and_models_motus_all_random, file = "/g/scb/zeller/karcher/gut-microbial-metabolism-of-critical-dose-immunosuppressants/tmp/all_predictions_and_models_motus_all_random.rdata")
 
 all_predictions_and_models_gene_characterized_random <- list()
 set.seed(1)
@@ -325,7 +325,7 @@ all_predictions_and_models_abundant_genes_random <- do.call('rbind', all_predict
 predictions_motus <- rbind(
     predictions_strains_active %>% mutate(features = "Identified active strains"),
     predictions_motus_all %>% mutate(features = "All species")
-    predictions_motus_all_supplement %>% mutate(features = "All species")
+    # predictions_motus_all_supplement %>% mutate(features = "All species")
 ) %>%
     mutate(condition = case_when(
         oxygen == "MA" ~ "Microaerobic",
@@ -346,14 +346,14 @@ performance_by_feature_motus_all <- rbind(tdm_motus_all %>%
     unnest() %>%
     arrange(target, numFeatures) %>%
     ungroup() %>%
-    filter(!str_detect(target, "IS"))
-    tdm_motus_all_supplement %>%
-    group_by(numFeatures, target, dataType, seed) %>%
-    summarize(spearmanCor = cor(prediction, truth, method = 'spearman')) %>%
-    unnest() %>%
-    arrange(target, numFeatures) %>%
-    ungroup() %>%
     filter(!str_detect(target, "IS")))
+# tdm_motus_all_supplement %>%
+#     group_by(numFeatures, target, dataType, seed) %>%
+#     summarize(spearmanCor = cor(prediction, truth, method = 'spearman')) %>%
+#     unnest() %>%
+#     arrange(target, numFeatures) %>%
+#     ungroup() %>%
+#     filter(!str_detect(target, "IS")))
 
 
 numberFeaturesDataMotusAll <- performance_by_feature_motus_all %>%
@@ -602,7 +602,7 @@ topFeatureSuperset <- unique(tf$origM)
 
 # Train and evaluate species models for this superset
 predictions_and_models_motus_top <- get_model_performance(gene_abundances = tax_profiles_long %>%
-    #filter(mOTUs_ID %in% topFeatureSuperset) %>%
+    # filter(mOTUs_ID %in% topFeatureSuperset) %>%
     inner_join(data.frame(mOTUs_ID = topFeatureSuperset)) %>%
     rename(gene = mOTUs_ID, stoolDonor = Stool_donor) %>%
     group_by(gene) %>%
@@ -690,9 +690,9 @@ tf <- evaluate_rf_feature_importances(
 library(GGally)
 
 ggpairsplot <- tf %>%
-        pivot_wider(id_cols = mOTUs_ID, names_from = target, values_from = importanceValue, values_fill = 0) %>%
-        column_to_rownames(var = "mOTUs_ID") %>%
-        as.data.frame()
+    pivot_wider(id_cols = mOTUs_ID, names_from = target, values_from = importanceValue, values_fill = 0) %>%
+    column_to_rownames(var = "mOTUs_ID") %>%
+    as.data.frame()
 
 plots <- list()
 mi <- min(ggpairsplot)
@@ -706,7 +706,7 @@ for (i1 in 1:dim(ggpairsplot)[2]) {
                 select(all_of(c(a, b))) %>%
                 as.data.frame() %>%
                 as_tibble()
-            co <- cor(tmp)[1,2] %>% round(3)
+            co <- cor(tmp)[1, 2] %>% round(3)
             plot <- ggplot(tmp, aes(x = !!sym(a), y = !!sym(b))) +
                 geom_point(alpha = 0.5) +
                 theme_presentation() +
@@ -717,13 +717,39 @@ for (i1 in 1:dim(ggpairsplot)[2]) {
                 annotate('text', x = 0, y = ma * 0.95, hjust = 0, label = str_c("Pearson's r: ", co), size = 2) +
                 xlim(c(mi, ma)) +
                 ylim(c(mi, ma)) +
-                
+                scale_x_continuous(breaks = c(0, 4, 8, 12)) +
+                scale_y_continuous(breaks = c(0, 4, 8, 12)) +
                 NULL
             plots[[length(plots) + 1]] <- plot
         }
     }
 }
-ggsave(plot = wrap_plots(plots, ncol = 3), filename = here('results/plots/ggpairsplot.pdf'), width = 8 * 0.6, height = 2.75 * 0.6)
+ggsave(plot = wrap_plots(plots, nrow = 3), filename = here('results/plots/ggpairsplot.pdf'), width = 2.75 * 0.6, height = 8 * 0.6)
+
+ggsave(plot = (rbind(
+    predictions_motus_top %>% mutate(Model = '21 top features'),
+    predictions_motus_all %>% mutate(Model = 'Abundant species')
+) %>%
+    filter(target %in% DrugsToHighlightInMainFigure) %>%
+    group_by(target, Model) %>%
+    summarize(spearmanCore = cor(prediction, truth, method = "spearman"),
+        pearsonCore = cor(prediction, truth),
+        R2 = pearsonCore^2) %>%
+    ggplot(aes(x = target, y = spearmanCore, fill = Model)) +
+    scale_fill_manual(values = c("21 top features" = "black", "Abundant species" = "grey")) +
+    geom_bar(stat = "identity", position = "dodge") +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+    ylab("Spearman correlation\nbetween prediction\nand measured activity") +
+    theme_presentation() +
+    theme(legend.position = 'top') +
+    # put legend into 2 rows
+    theme(legend.position = "top", legend.box = "horizontal") +
+    guides(fill = guide_legend(nrow = 2, byrow = TRUE)) +
+    theme(axis.text = element_text(size = 6), axis.title = element_text(size = 6)) +
+    theme(legend.text = element_text(size = 6), legend.title = element_text(size = 8)) +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+    NULL), filename = here('results/plots/spearmanCore_top_21_vs_all.pdf'), width = 1.8, height = 2.75)
+
 
 # genes
 predictions_genes <- rbind(

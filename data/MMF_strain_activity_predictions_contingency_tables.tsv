@@ -1,0 +1,9 @@
+kind,features,outcome
+TP,sequence-based homology,11      
+FP,sequence-based homology,7
+FN,sequence-based homology,11  
+TN,sequence-based homology,14
+TP,structure-based prediction,8
+FP,structure-based prediction,3
+FN,structure-based prediction,14
+TN,structure-based prediction,18

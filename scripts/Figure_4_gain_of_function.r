@@ -9,20 +9,8 @@ library(here)
 # source('../data/utils.r')
 source(here("data", 'utils.r'))
 
-if (rstudioapi::isAvailable()) {
-    print("We are within Rstudio, so mounted.")
-    wdir <- dirname(rstudioapi::getActiveDocumentContext()$path)
-} else {
-    print("We are on the server side, probably.")
-    wdir <- getwd()
-}
-setwd(wdir)
-
-# I used to blast against CL03T12C37_GCF_018292165.1_ASM1829216v1_genomic.fna, which is the wrong strain
-# blast <- read_tsv("/g/scb/zeller/karcher/maral_genomic_screen_hit_ID/blast_OLD.out", col_names = F)
-# In order to get locus tags that are compatible with what we show in fiogures, I'll now blast against the ATCC 8492 genome
-# blastn -outfmt 6 -subject /g/scb/zeller/karcher/maral_genomic_screen_hit_ID/GCF_000154205.1_ASM15420v1_genomic.fna  -query /g/scb/zeller/karcher/maral_genomic_screen_hit_ID/all.fas > blast_NEW.out
-blast <- read_tsv(here('data', 'blast.out'), col_names = F)
+# blastn -outfmt 6 -subject path/to/repo/data/GCF_000154205.1_ASM15420v1_genomic.fna  -query path/to/repo/data/gof_active_inserts.faa > path/to/repo/data/gain_of_function_blast.out
+blast <- read_tsv(here('data', 'gain_of_function_blast.out'), col_names = F)
 blast <- blast %>%
     select(X1, X2, X3, X11, X9, X10, X12) %>%
     rename(insert = X1,

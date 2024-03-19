@@ -9,19 +9,28 @@ library(GGally)
 
 source(here('data', 'utils.r'))
 
-combs <- c("_C_AA_TM",
-    "_C_MA_TM",
-    "_SS_AA_TM",
-    "_SS_MA_TM")
+# combs <- c("_C_AA_TM",
+#     "_C_MA_TM",
+#     "_SS_AA_TM",
+#     "_SS_MA_TM")
+
+params <- list(
+    c("_C_AA_TM", "C", "AA", 9 + 2),
+    c("_C_MA_TM", "C", "MA", 10 + 2),
+    c("_SS_AA_TM", "SS", "AA", 13 + 3),
+    c("_SS_MA_TM", "SS", "MA", 14 + 2)
+)
 
 allR <- list()
 
 # for (cc in names(allR)) {
-for (cc in combs) {
+for (param in params) {
 
     # Write binary heatmap ordered by mean BUILDUP potential of C, AA
-    typeE <- str_split_fixed(cc, "_", n = 3)[, 2]
-    oxygen <- str_split_fixed(cc, "_", n = 4)[, 3]
+    cc <- param[1]
+    typeE <- param[2]
+    oxygen <- param[3]
+    sheetNumber <- param[4]
 
     tested_strains <- read_xlsx(here('data/Supp_Tables_STM_240216.xlsx'), sheet = 5, skip = 2) %>%
         filter(!is.na(`NCBI tax ID`))
@@ -44,8 +53,6 @@ for (cc in combs) {
         pull(Name)
 
 
-    m <- read_tsv(here('data', str_c("metabolite_buildup", cc, "_LMMs_FDR_corrected_hits.tsv"))) %>%
-        rename(ParentCompound = parent_compound)
     if (cc == "_C_AA_TM") {
         sheetNumber <- 11
         m <- read_xlsx(here('data/Supp_Tables_STM_240216.xlsx'), sheet = sheetNumber, skip = 2) %>%

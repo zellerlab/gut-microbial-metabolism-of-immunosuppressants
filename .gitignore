@@ -2,3 +2,4 @@ results/plots/*
 scripts/large_gene_model_lines.iv
 data/all_genes_against_GMGC10.human-gut.95nr.protein.DIAMOND.out
 data/collated.gene_counts.combined_scaled.txt
+results/model_objects/*

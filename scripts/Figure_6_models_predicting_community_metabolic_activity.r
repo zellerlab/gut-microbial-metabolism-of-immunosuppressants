@@ -14,14 +14,33 @@ source(here('scripts/Figure_6_utils.r'))
 # This runs for 10 minutes. The GMGC gene catalogue is large - sorry.
 source(here('scripts/Figure_6_load_data_prep_env.r'))
 
-predictions_and_models_gene_characterized <- get_model_performance(gene_abundances = gmgc_profile_gmgc_profile_homologues_to_characterized_enzymes_long %>%
+
+gmgc_profile_gmgc_profile_homologues_to_characterized_enzymes_long_SCALE_INFO <- gmgc_profile_gmgc_profile_homologues_to_characterized_enzymes_long %>%
     group_by(gene) %>%
-    mutate(abundance = (abundance - mean(abundance)) / sd(abundance)) %>%
+    summarize(
+        mean_abundance = mean(abundance),
+        sd_abundance = sd(abundance))
+
+predictions_and_models_gene_characterized <- get_model_performance(gene_abundances = gmgc_profile_gmgc_profile_homologues_to_characterized_enzymes_long %>%
+    #group_by(gene) %>%
+    #mutate(abundance = (abundance - mean(abundance)) / sd(abundance)) %>%
+    left_join(gmgc_profile_gmgc_profile_homologues_to_characterized_enzymes_long_SCALE_INFO) %>%
+    mutate(abundance = (abundance - mean_abundance) / sd_abundance) %>%
+    select(-c(mean_abundance, sd_abundance)) %>%
     filter(!is.na(abundance)) %>%
     ungroup(), numResamp = 1, targets = drugsToComputeMetricsFor, predictor_target_map = gene_target_map, mod = "characterized_enzymes", modelType = "RF", alsoReturnData = TRUE, how = 'only_testedactive')
-# models_gene_characterized <- predictions_and_models_gene_characterized[[1]
+models_gene_characterized <- predictions_and_models_gene_characterized[[1]]
 predictions_gene_characterized <- predictions_and_models_gene_characterized[[2]]
-# tdm_gene_characterized <- do.call('rbind', predictions_and_models_gene_characterized[[3]])
+top_down_model_gene_characterized <- predictions_and_models_gene_characterized[[5]]
+
+dir.create(here("results/model_objects/characterized_enzymes"), showWarnings = FALSE)
+save(models_gene_characterized, top_down_model_gene_characterized, file = here("results/model_objects/characterized_enzymes/models.rdata"))
+write_tsv(
+    gmgc_profile_gmgc_profile_homologues_to_characterized_enzymes_long_SCALE_INFO, here("results/model_objects/characterized_enzymes/means_sds.tsv")
+    )
+
+#predictions_gene_characterized <- predictions_and_models_gene_characterized[[2]]
+#top_down_model_gene_characterized <- do.call('rbind', predictions_and_models_gene_characterized[[3]])
 # directionality_gene_characterized <- do.call('rbind', predictions_and_models_gene_characterized[[4]])
 
 
@@ -31,7 +50,7 @@ predictions_gene_characterized <- predictions_and_models_gene_characterized[[2]]
 # pivotWide = FALSE,
 # targets = drugsToComputeMetricsFor,
 # predictor_target_map = gene_target_map,
-# mod = "characterized_enzymes",
+# mod = "abundant_genes_not_permuted",
 # modelType = "RF",
 # alsoReturnData = TRUE,
 # how = 'all_predictors',
@@ -39,27 +58,57 @@ predictions_gene_characterized <- predictions_and_models_gene_characterized[[2]]
 # )
 # predictions_abundant_genes <- predictions_and_models_abundant_genes[[2]]
 # To save time, I load here precomputed values (see Figure_6_get_large_gene_model_predictions.r, which also produces the baseline predictions, for this see below)
-predictions_abundant_genes <- map(list.files(here('tmp/large_gene_stuff_real_models'), pattern = "__FALSE__[0-9]+.tsv", full.names = TRUE), \(x) fread(x, sep = '\t')) %>%
+predictions_abundant_genes <- map(list.files(here('results/large_gene_stuff_real_models'), pattern = "__FALSE__[0-9]+.tsv", full.names = TRUE), \(x) fread(x, sep = '\t')) %>%
     do.call('rbind', .) %>%
     as_tibble()
 
+tax_profiles_long_SCALE_INFO <- tax_profiles_long %>%
+    rename(gene = mOTUs_ID) %>%
+    group_by(gene) %>%
+    summarize(
+        mean_abundance = mean(abundance),
+        sd_abundance = sd(abundance)
+    )
+
 predictions_and_models_strains_active <- get_model_performance(gene_abundances = tax_profiles_long %>%
     rename(gene = mOTUs_ID, stoolDonor = Stool_donor) %>%
-    group_by(gene) %>%
-    mutate(abundance = (abundance - mean(abundance)) / sd(abundance)) %>%
+    #group_by(gene) %>%
+    #mutate(abundance = (abundance - mean(abundance)) / sd(abundance)) %>%
+    left_join(tax_profiles_long_SCALE_INFO) %>%
+    mutate(abundance = (abundance - mean_abundance) / sd_abundance) %>%
+    select(-c(mean_abundance, sd_abundance)) %>%    
     filter(!is.na(abundance)) %>%
     ungroup(), numResamp = 1, targets = drugsToComputeMetricsFor, predictor_target_map = species_target_map, mod = "active_strains", modelType = "RF", alsoReturnData = TRUE, how = 'only_testedactive')
-# models_strains_active <- predictions_and_models_strains_active[[1]]
+models_strains_active <- predictions_and_models_strains_active[[1]]
 predictions_strains_active <- predictions_and_models_strains_active[[2]]
-# tdm_strains_active <- do.call('rbind', predictions_and_models_strains_active[[3]])
-# directionality_strains_active <- do.call('rbind', predictions_and_models_strains_active[[4]])
+top_down_model_strains_active <- predictions_and_models_strains_active[[5]]
+
+dir.create(here("results/model_objects/strains_active"), showWarnings = FALSE)
+save(models_strains_active, top_down_model_strains_active, file = here("results/model_objects/strains_active/models.rdata"))
+write_tsv(
+    tax_profiles_long_SCALE_INFO, here("results/model_objects/strains_active/means_sds.tsv")
+    )
+
+
+tax_profiles_long_SCALE_INFO <- tax_profiles_long %>%
+    rename(gene = mOTUs_ID) %>%
+    group_by(gene) %>%
+    filter(mean(abundance > 0) > 0.2) %>%
+    filter(max(abundance) > 1E-3) %>%        
+    summarize(
+        mean_abundance = mean(abundance),
+        sd_abundance = sd(abundance)
+    )
 
 predictions_and_models_motus_all <- get_model_performance(gene_abundances = tax_profiles_long %>%
     rename(gene = mOTUs_ID, stoolDonor = Stool_donor) %>%
-    group_by(gene) %>%
+    #group_by(gene) %>%
     filter(mean(abundance > 0) > 0.2) %>%
     filter(max(abundance) > 1E-3) %>%
-    mutate(abundance = (abundance - mean(abundance)) / sd(abundance)) %>%
+    #mutate(abundance = (abundance - mean(abundance)) / sd(abundance)) %>%
+    left_join(tax_profiles_long_SCALE_INFO) %>%
+    mutate(abundance = (abundance - mean_abundance) / sd_abundance) %>%
+    select(-c(mean_abundance, sd_abundance)) %>%
     filter(!is.na(abundance)) %>%
     ungroup(),
 numResamp = 1,
@@ -77,13 +126,19 @@ mod = "all_motus",
 modelType = "RF",
 alsoReturnData = TRUE,
 how = 'all_predictors',
-numFeaturesForTopDownSpearmanCorComparisons = 100) ############################
-# Contains all large models with all features
+numFeaturesForTopDownSpearmanCorComparisons = 100)
+
 models_motus_all <- predictions_and_models_motus_all[[1]]
-# Contains predictions
 predictions_motus_all <- predictions_and_models_motus_all[[2]]
-# Contains predictions of top-down models
 tdm_motus_all <- do.call('rbind', predictions_and_models_motus_all[[3]])
+top_down_model_motus_all <- predictions_and_models_motus_all[[5]]
+
+dir.create(here("results/model_objects/motus_all"), showWarnings = FALSE)
+save(models_motus_all, top_down_model_motus_all, file = here("results/model_objects/motus_all/models.rdata"))
+write_tsv(
+    tax_profiles_long_SCALE_INFO, here("results/model_objects/motus_all/means_sds.tsv")
+    )
+
 # Contains directionality of all features based on correlation with outcome
 directionality_motus_all <- do.call(
     'rbind',

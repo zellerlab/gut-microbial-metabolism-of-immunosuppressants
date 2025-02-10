@@ -3,3 +3,8 @@ scripts/large_gene_model_lines.iv
 data/all_genes_against_GMGC10.human-gut.95nr.protein.DIAMOND.out
 data/collated.gene_counts.combined_scaled.txt
 results/model_objects/*
+swarte_et_al_profiles
+swarte_et_al_formatted
+swarte_et_al_raw
+format_swarte_et_al.sh
+lis

@@ -11,6 +11,7 @@ source(here('data/utils.r'))
 
 ref_profiles_wide <- read_tsv(here('data/profiles/reference_profiles_WGS_wide.tsv'))
 swarte_profiles_wide <- readRDS(here("swarte_et_al_profiles/Results/collated/res_mOTUs.rds"))
+swarte_profiles_wide <- swarte_profiles_wide[, str_detect(colnames(swarte_profiles_wide), "Renal_CS")]
 # format swarte profiles
 motu_raw <- rownames(swarte_profiles_wide)
 swarte_profiles_wide <- apply(swarte_profiles_wide, 2, \(x) x/sum(x))
@@ -87,7 +88,7 @@ pcoaBig <- pcoaBig %>%
         str_detect(sampleID, "A-") ~ "healthy adults",
         str_detect(sampleID, "T-") ~ "transplant patients",
         str_detect(sampleID, "P-") ~ "healthy children",
-        profileType == "swarte" ~ 'Swarte'
+        profileType == "swarte" ~ 'transplant patients\n(Swarte et al.)'
     ))
 
 
@@ -101,7 +102,7 @@ ordination_color_vector <- c(
     "healthy adults" = "#19984A", 
     "healthy children" = "#317EC2", 
     "transplant patients" = "#E7872B",
-    "Swarte" = "#FFB6C1"  # Light pastel red
+    "transplant patients\n(Swarte et al.)" = "#FFB6C1"  # Light pastel red
 )
 
 pcoaBig <- pcoaBig %>%

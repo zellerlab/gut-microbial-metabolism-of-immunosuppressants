@@ -73,6 +73,8 @@ if (!permute) {
         how = 'all_predictors',
         preFilterCor = TRUE,
         permuteOutcome = FALSE)
+    models_abundant_genes <- predictions_and_models_abundant_genes[[1]]
+    write_rds(models_abundant_genes, here("tmp/large_gene_stuff_ACTUAL_models", str_c("large_gene_model__", community, "__", target, "__", permute, "__", as.character(seed), "___FULL_MODEL.rds")))
     predictions_abundant_genes <- predictions_and_models_abundant_genes[[2]]
     write_tsv(predictions_abundant_genes, here("tmp/large_gene_stuff_real_models", str_c("large_gene_model_predictions__", community, "__", target, "__", permute, "__", as.character(seed), "___FULL_MODEL.tsv")))
 } else {
@@ -90,6 +92,7 @@ if (!permute) {
         how = 'all_predictors',
         preFilterCor = TRUE,
         permuteOutcome = TRUE)
+    #models_abundant_genes <- predictions_and_models_abundant_genes[[1]]
     predictions_abundant_genes_permuted <- predictions_and_models_abundant_genes_random[[2]]
-    write_tsv(predictions_abundant_genes_permuted, here("tmp/large_gene_stuff_permuted_models", str_c("large_gene_model_predictions__", community, "__", target, "__", permute, "__", seed, "___FULL_MODEL.tsv")))
+    write_tsv(predictions_abundant_genes_permuted, here("tmp/large_gene_stuff_permuted_models", str_c("large_gene_model_predictions__", community, "__", target, "__", permute, "__", as.character(seed), "___FULL_MODEL.tsv")))
 }

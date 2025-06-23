@@ -1,29 +1,55 @@
-PSN	sampleID	visit	batch	batch_orig
-luei-kkhd-01	MG_327	5	modelling	240813_MG011_PRISMA_NovaSeq_final
-amza-kkhd-05	MG_331	4	modelling	240813_MG011_PRISMA_NovaSeq_final
-madw-kkhd-13	MG_338	5	modelling	240813_MG011_PRISMA_NovaSeq_final
-leel-kkhd-15	MG_343	5	modelling	240813_MG011_PRISMA_NovaSeq_final
-nash-kkhd-17	MG_348	4	modelling	240813_MG011_PRISMA_NovaSeq_final
-rala-kkhd-20	MG_354	4	modelling	240813_MG011_PRISMA_NovaSeq_final
-liso-kkhd-22	MG_360	5	modelling	240813_MG011_PRISMA_NovaSeq_final
-make-kkhd-33	MG_364	4	modelling	240813_MG011_PRISMA_NovaSeq_final
-rovo-nzmu-03	MG_370	5	modelling	240813_MG011_PRISMA_NovaSeq_final
-pati-nzmu-10	MG_374	4	modelling	240813_MG011_PRISMA_NovaSeq_final
-chbo-nzmu-15	MG_380	4	modelling	240813_MG011_PRISMA_NovaSeq_final
-dabe-nzmu-21	MG_394	4	modelling	240813_MG011_PRISMA_NovaSeq_final
-rakr-nzmu-24	MG_404	5	modelling	240813_MG011_PRISMA_NovaSeq_final
-brar-nzmu-36	MG_430	4	modelling	240813_MG011_PRISMA_NovaSeq_final
-real-nzmu-39	MG_437	5	modelling	240813_MG011_PRISMA_NovaSeq_final
-pebe-nzmu-101	MG_442	5	modelling	240813_MG011_PRISMA_NovaSeq_final
-sawa-nzmu-48	MG_459	4	modelling	240813_MG011_PRISMA_NovaSeq_final
-nisc-kkhd-09	MG_17	5	interim_Batch1	230111_PRISMA_Batch1_P3
-ancz-kkhd-11	MG_23	5	interim_Batch2	230727_PRISMA_Batch2_P3
-dezi-kkhd-02	MG_29	4	interim_Batch2	230727_PRISMA_Batch2_P3
-jepa-nzmu-07	MG_41	4	interim_Batch2	230727_PRISMA_Batch2_P3
-abwa-kkhd-12	MG_48	5	interim_Batch2	230727_PRISMA_Batch2_P3
-biot-kkhd-14	MG_59	4	interim_Batch2	230727_PRISMA_Batch2_P3
-joefr-nzmu-05	MG_110	5	interim_Batch4	230804_PRISMA_Batch4_P3
-vist-kkhd-03	MG_127	4	interim_Batch4	230804_PRISMA_Batch4_P3
-zoli-kkhd-08	MG_133	4	interim_Batch4	230804_PRISMA_Batch4_P3
-saos-nzmu-22	MG_146	4	interim_Batch4	230804_PRISMA_Batch4_P3
-rovo-nzmu-03	NA	4	NA	NA
+PSN	sampleID	visit	fastq_names
+luei-kkhd-01	MG_327	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG327_1_sequence.txt.gz
+luei-kkhd-01	MG_327	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG327_2_sequence.txt.gz
+amza-kkhd-05	MG_331	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG331_1_sequence.txt.gz
+amza-kkhd-05	MG_331	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG331_2_sequence.txt.gz
+madw-kkhd-13	MG_338	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG338_1_sequence.txt.gz
+madw-kkhd-13	MG_338	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG338_2_sequence.txt.gz
+leel-kkhd-15	MG_343	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG343_1_sequence.txt.gz
+leel-kkhd-15	MG_343	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG343_2_sequence.txt.gz
+nash-kkhd-17	MG_348	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG348_1_sequence.txt.gz
+nash-kkhd-17	MG_348	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG348_2_sequence.txt.gz
+rala-kkhd-20	MG_354	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG354_1_sequence.txt.gz
+rala-kkhd-20	MG_354	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG354_2_sequence.txt.gz
+liso-kkhd-22	MG_360	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG360_1_sequence.txt.gz
+liso-kkhd-22	MG_360	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG360_2_sequence.txt.gz
+make-kkhd-33	MG_364	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG364_1_sequence.txt.gz
+make-kkhd-33	MG_364	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG364_2_sequence.txt.gz
+rovo-nzmu-03	MG_370	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG370_1_sequence.txt.gz
+rovo-nzmu-03	MG_370	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG370_2_sequence.txt.gz
+pati-nzmu-10	MG_374	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG374_1_sequence.txt.gz
+pati-nzmu-10	MG_374	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG374_2_sequence.txt.gz
+chbo-nzmu-15	MG_380	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG380_1_sequence.txt.gz
+chbo-nzmu-15	MG_380	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG380_2_sequence.txt.gz
+dabe-nzmu-21	MG_394	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG394_1_sequence.txt.gz
+dabe-nzmu-21	MG_394	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG394_2_sequence.txt.gz
+rakr-nzmu-24	MG_404	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG404_1_sequence.txt.gz
+rakr-nzmu-24	MG_404	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG404_2_sequence.txt.gz
+brar-nzmu-36	MG_430	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG430_1_sequence.txt.gz
+brar-nzmu-36	MG_430	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG430_2_sequence.txt.gz
+real-nzmu-39	MG_437	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG437_1_sequence.txt.gz
+real-nzmu-39	MG_437	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG437_2_sequence.txt.gz
+pebe-nzmu-101	MG_442	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG442_1_sequence.txt.gz
+pebe-nzmu-101	MG_442	5	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG442_2_sequence.txt.gz
+sawa-nzmu-48	MG_459	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG459_1_sequence.txt.gz
+sawa-nzmu-48	MG_459	4	/g/scb/mzimmerm/raw_GeneCore_data/2024/240813_MG011_PRISMA_NovaSeq//H5YFCDSXC_240813_MG_PRISMA_24s001116-1-1_Gross_lane1MG459_2_sequence.txt.gz
+nisc-kkhd-09	MG_17	5	/g/scb/zeller/karcher/PRISMA/data/WGS/230111_PRISMA_Batch1_P3//AAAY7KJHV_230111_MG_Batch1_23s000063-1-1_Gross_lane1MG17/AAAY7KJHV_230111_MG_Batch1_23s000063-1-1_Gross_lane1MG17_1.fastq.gz
+nisc-kkhd-09	MG_17	5	/g/scb/zeller/karcher/PRISMA/data/WGS/230111_PRISMA_Batch1_P3//AAAY7KJHV_230111_MG_Batch1_23s000063-1-1_Gross_lane1MG17/AAAY7KJHV_230111_MG_Batch1_23s000063-1-1_Gross_lane1MG17_2.fastq.gz
+ancz-kkhd-11	MG_23	5	/g/scb/zeller/karcher/PRISMA/data/WGS/230804_PRISMA_Batch5_P3/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1MG23/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1MG23_1.fastq.gz
+ancz-kkhd-11	MG_23	5	/g/scb/zeller/karcher/PRISMA/data/WGS/230804_PRISMA_Batch5_P3/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1MG23/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1MG23_2.fastq.gz
+dezi-kkhd-02	MG_29	4	/g/scb/zeller/karcher/PRISMA/data/WGS/230804_PRISMA_Batch5_P3/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1MG29/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1MG29_1.fastq.gz
+dezi-kkhd-02	MG_29	4	/g/scb/zeller/karcher/PRISMA/data/WGS/230804_PRISMA_Batch5_P3/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1MG29/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1MG29_2.fastq.gz
+jepa-nzmu-07	MG_41	4	/g/scb/zeller/karcher/PRISMA/data/WGS/230727_PRISMA_Batch2_P3//AAAWNKKHV_230321_MG_Batch2_P3_23s002005-1-1_Gross_lane1MG41/AAAWNKKHV_230321_MG_Batch2_P3_23s002005-1-1_Gross_lane1MG41_1.fastq.gz
+jepa-nzmu-07	MG_41	4	/g/scb/zeller/karcher/PRISMA/data/WGS/230727_PRISMA_Batch2_P3//AAAWNKKHV_230321_MG_Batch2_P3_23s002005-1-1_Gross_lane1MG41/AAAWNKKHV_230321_MG_Batch2_P3_23s002005-1-1_Gross_lane1MG41_2.fastq.gz
+abwa-kkhd-12	MG_48	5	NA
+biot-kkhd-14	MG_59	4	/g/scb/zeller/karcher/PRISMA/data/WGS/230727_PRISMA_Batch2_P3//AAAWNKKHV_230321_MG_Batch2_P3_23s002005-1-1_Gross_lane1MG59/AAAWNKKHV_230321_MG_Batch2_P3_23s002005-1-1_Gross_lane1MG59_1.fastq.gz
+biot-kkhd-14	MG_59	4	/g/scb/zeller/karcher/PRISMA/data/WGS/230727_PRISMA_Batch2_P3//AAAWNKKHV_230321_MG_Batch2_P3_23s002005-1-1_Gross_lane1MG59/AAAWNKKHV_230321_MG_Batch2_P3_23s002005-1-1_Gross_lane1MG59_2.fastq.gz
+joefr-nzmu-05	MG_110	5	/g/scb/zeller/karcher/PRISMA/data/WGS/230804_PRISMA_Batch4_P3//AAC2FGFHV_230321_MG_Batch4_23s001005-1-1_Gross_lane1110/AAC2FGFHV_230321_MG_Batch4_23s001005-1-1_Gross_lane1110_R1_001.fastq.gz
+joefr-nzmu-05	MG_110	5	/g/scb/zeller/karcher/PRISMA/data/WGS/230804_PRISMA_Batch4_P3//AAC2FGFHV_230321_MG_Batch4_23s001005-1-1_Gross_lane1110/AAC2FGFHV_230321_MG_Batch4_23s001005-1-1_Gross_lane1110_R2_001.fastq.gz
+vist-kkhd-03	MG_127	4	/g/scb/zeller/karcher/PRISMA/data/WGS/230804_PRISMA_Batch5_P3/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1127/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1127_1.fastq.gz
+vist-kkhd-03	MG_127	4	/g/scb/zeller/karcher/PRISMA/data/WGS/230804_PRISMA_Batch5_P3/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1127/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1127_2.fastq.gz
+zoli-kkhd-08	MG_133	4	/g/scb/zeller/karcher/PRISMA/data/WGS/230804_PRISMA_Batch5_P3/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1133/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1133_1.fastq.gz
+zoli-kkhd-08	MG_133	4	/g/scb/zeller/karcher/PRISMA/data/WGS/230804_PRISMA_Batch5_P3/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1133/AAAWJV5HV_230321_MG_Batch5_23s001006-1-1_Gross_lane1133_2.fastq.gz
+saos-nzmu-22	MG_146	4	/g/scb/zeller/karcher/PRISMA/data/WGS/230804_PRISMA_Batch4_P3//AAC2FGFHV_230321_MG_Batch4_23s001005-1-1_Gross_lane1146/AAC2FGFHV_230321_MG_Batch4_23s001005-1-1_Gross_lane1146_R1_001.fastq.gz
+saos-nzmu-22	MG_146	4	/g/scb/zeller/karcher/PRISMA/data/WGS/230804_PRISMA_Batch4_P3//AAC2FGFHV_230321_MG_Batch4_23s001005-1-1_Gross_lane1146/AAC2FGFHV_230321_MG_Batch4_23s001005-1-1_Gross_lane1146_R2_001.fastq.gz
+rovo-nzmu-03	NA	4	NA

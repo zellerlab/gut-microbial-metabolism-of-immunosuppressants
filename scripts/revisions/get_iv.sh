@@ -1,0 +1,1 @@
+find /g/scb/zeller/karcher/gut-microbial-metabolism-of-critical-dose-immunosuppressants/tmp/large_gene_stuff_ACTUAL_models | grep rds  | xargs -i echo -e "Rscript /g/scb/zeller/karcher/gut-microbial-metabolism-of-critical-dose-immunosuppressants/scripts/revisions/apply_invitro_model_to_PRISMA_samples.r \"{}\"" > iv.sh

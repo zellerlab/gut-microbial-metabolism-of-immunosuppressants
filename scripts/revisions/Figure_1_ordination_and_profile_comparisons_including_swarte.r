@@ -68,7 +68,7 @@ pwdistancesBig <- vegan::vegdist(profilesTogether %>%
     as.data.frame() %>%
     column_to_rownames('profilesTogether'), method = 'euclidean')
 
-pcoaBig <- cmdscale(pwdistancesBig, k = 2)
+pcoaBig <- cmdscale(pwdistancesBig, k = 2, eig = TRUE)
 pcoaBig <- pcoaBig %>%
     as.data.frame()
 colnames(pcoaBig) <- c("PCo 1", "PCo 2")

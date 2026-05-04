@@ -21,8 +21,6 @@ overnight_culture_profiles_long <- rbind(
         mutate(oxygen = "AA")
 )
 
-
-
 profilesTogetherLong <- rbind(
     ref_profiles_wide %>%
         select(-c(species, kingdom, taxon)) %>%
@@ -55,7 +53,7 @@ pwdistancesBig <- vegan::vegdist(profilesTogether %>%
     as.data.frame() %>%
     column_to_rownames('profilesTogether'), method = 'euclidean')
 
-pcoaBig <- cmdscale(pwdistancesBig, k = 2)
+pcoaBig <- cmdscale(pwdistancesBig, k = 2, eig = TRUE)
 pcoaBig <- pcoaBig %>%
     as.data.frame()
 colnames(pcoaBig) <- c("PCo 1", "PCo 2")
@@ -89,7 +87,9 @@ stopifnot(all(rownames(meta) == rownames(as.matrix(pwdistancesBig))))
 # Update the color vector with the new blue
 ordination_color_vector <- c("healthy adults" = "#19984A", "healthy children" = "#317EC2", "transplant patients" = "#E7872B")
 
-
+adonis2(
+    pwdistancesBig ~ profileType, data = meta, permutations = 9999
+)
 
 p1Ordination <- ggplot() +
     geom_point(data = pcoaBig %>%
